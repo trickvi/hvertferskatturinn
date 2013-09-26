@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Bree+Serif&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,700italic)
 @import url(http://fonts.googleapis.com/css?family=Delius);
 
 html {
@@ -43,7 +43,7 @@ h6,
 .main-header,
 .lead {
 	font-weight:400;
-	font-family: 'Bree Serif', Helvetica, Arial, sans-serif;
+	font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
 }
 
 h2 {
