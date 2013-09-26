@@ -1,4 +1,6 @@
 OpenSpending.Icons.Icelandic = {
+    '....': 'icelandic/iceland.svg',
+
     '01': 'icelandic/skjaldarmerki.svg',
 
     '03': 'icelandic/log-og-regla.svg',
