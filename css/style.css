@@ -25,7 +25,9 @@ blockquote p {
 
 a {
   color: #313131;
+  text-decoration: underline;
 }
+
 a:hover {
   color: #F38B1C;
 }
@@ -92,6 +94,10 @@ h2 {
   font-size: 1.1em;
 }
 
+#logo a {
+  text-decoration: none;
+}
+
 #logo a:hover {
   text-decoration: none;
 }
@@ -101,76 +107,12 @@ h2 {
 }
 .main-header nav ul.nav-pills {
 	margin-top:29px;
-	font-size:18px;
+	font-size:16px;
 }
-
-/* OKF Panel */
-.okfn-ribbon a {
-  background-position: center -215px;
-  height: 85px;
-	opacity:0.8;
-}
-.okfn-ribbon.active a,
-.okfn-ribbon a:hover {
-	opacity:0.9;
-}
-#okf-panel {
-	border-bottom-color:#494848;
-}
-
-
-/* Footer */
-body > footer,
-body > footer p {
-  font-size: 13px;
-  line-height: 18px;
-}
-body > footer {
-  margin-top: 15px;
-  padding: 0;
-}
-body > footer > .inner {
-  padding: 20px 0 20px 0;
-}
-body > footer .right {
-	text-align:right;
-}
-
-
-/* ShareThis */
-span[class*='st_'] > span {
-	margin:0;
-}
-span[class*='st_'] > span > span.stLarge {
-	background-image:url(../img/social-icons.png) !important;
-	background-position: 0px 0px;
-	opacity:0.9;
-}
-span[class*='st_'] > span > span.stLarge:hover {
-	background-position: 0px 0px;
-	opacity:1;
-}
-span.st_facebook_large > span > span.stLarge,
-span.st_facebook_large > span > span.stLarge:hover {
-	background-position: 0px -50px;
-}
-span.st_googleplus_large > span > span.stLarge,
-span.st_googleplus_large > span > span.stLarge:hover {
-	background-position: 0px -100px;
-}
-span.st_blogger_large > span > span.stLarge,
-span.st_blogger_large > span > span.stLarge:hover {
-	background-position: 0px -150px;
-}
-
 
 /* 
  * Visualization-specific styles. 
  */
-
-#dailybread {
-  min-height: 20em;
-}
 
 .row .bubbletree-wrapper {
   height: 600px;
